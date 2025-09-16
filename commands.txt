@@ -1,0 +1,4 @@
+mkdir -p pretrained_model &&
+wget -O pretrained_model/convnext_large_kmax_deeplab_coco_train.tar.gz \
+https://storage.googleapis.com/gresearch/tf-deeplab/saved_model/convnext_large_kmax_deeplab_coco_train.tar.gz &&
+tar -xzf pretrained_model/convnext_large_kmax_deeplab_coco_train.tar.gz -C pretrained_model
