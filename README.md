@@ -121,7 +121,6 @@ Each ZIP will be processed automatically (preprocessing + segmentation), and the
 
 - The scripts assume the Neon/Pupil Labs export structure is respected.
 - The DeepLab model must be downloaded before first use.
-- Scripts are designed to be run from the `test/` folder.
 - **This project is inspired by [google-research/deeplab2](https://github.com/google-research/deeplab2).**
 
 ---
