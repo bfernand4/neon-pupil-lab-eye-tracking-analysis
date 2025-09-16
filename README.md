@@ -1,4 +1,4 @@
-# Neon pupil Lab eye-tracking analysis
+# Neon pupil Lab Eye-tracking analysis
 
 This repository provides tools to preprocess, segment, and analyze videos and eye fixation data recorded with [Pupil Labs Neon](https://pupil-labs.com/products/neon) eye-tracking glasses. The main goal is to associate each eye fixation with a segmented object in the scene, using a DeepLab COCO model, and to export a CSV file linking each video frame, fixation, and object label.
 
