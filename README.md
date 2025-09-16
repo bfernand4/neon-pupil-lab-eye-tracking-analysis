@@ -83,7 +83,7 @@ Intermediate files will be created in `../temp/`.
 To segment the preprocessed images and associate fixations:
 
 ```sh
-python scripts/segmentation.py --result_path ../results
+python scripts/segmentation.py --result_path results
 ```
 
 Add the `--is_saved` option to also save segmented images and images with fixations.
