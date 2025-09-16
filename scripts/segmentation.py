@@ -1260,6 +1260,13 @@ if __name__ == "__main__":
 
     # Load the model
     LOCAL_MODEL_PATH = "../pretrained_model/convnext_large_kmax_deeplab_coco_train"
+    
+    if not os.path.exists(LOCAL_MODEL_PATH):
+        raise FileNotFoundError(
+            f"Model folder not found at '{LOCAL_MODEL_PATH}'. "
+            "Please download and extract the pretrained model before running this script."
+        )
+    
     LOADED_MODEL = tf.saved_model.load(LOCAL_MODEL_PATH)
 
     # Check and create output folders if necessary

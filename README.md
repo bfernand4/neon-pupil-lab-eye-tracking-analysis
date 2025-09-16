@@ -28,7 +28,7 @@ This enables researchers to study what objects participants are looking at, fram
 
 ## Model Used
 
-We use the **DeepLab ConvNeXt Large KMaX** model, trained on the COCO dataset, for semantic segmentation. This model is capable of detecting and labeling a wide variety of everyday objects in each video frame, enabling precise mapping between gaze points and objects in the scene.
+We use the **DeepLab ConvNeXt Large KMaX** model, trained on the COCO dataset, for semantic segmentation. 
 
 ---
 
@@ -111,9 +111,9 @@ Each ZIP will be processed automatically (preprocessing + segmentation), and the
 
 - `scripts/` : main Python scripts
 - `zip/` : (create this) put all ZIP files to process here
-- `../temp/` : temporary/intermediate files (created automatically)
-- `../results/` : final results (CSV, etc.)
-- `../pretrained_model/` : downloaded DeepLab model
+- `temp/` : temporary/intermediate files (created automatically)
+- `results/` : final results (CSV, etc.)
+- `pretrained_model/` : downloaded DeepLab model
 
 ---
 
