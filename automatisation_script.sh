@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Directory containing ZIP files
-ZIP_DIR="/home/bendito/coco_segmentation/test/zip"
+ZIP_DIR="/path/to/my_export"
 
 # Python scripts to run
 PREPROCESS_SCRIPT="scripts/preprocess_neon.py"
 SEGMENT_SCRIPT="scripts/segmentation.py"
 
 # Directory to save results
-RESULT_DIR="../results"
+RESULT_DIR="results"
 
 # Folders to delete after each run
 TO_DELETE=("temp")
